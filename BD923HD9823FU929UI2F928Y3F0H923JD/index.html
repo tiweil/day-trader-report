@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Day trader alerts</title><style>
+:root{color-scheme:light;--bg:#fcfcfb;--card:#ffffff;--ink:#0b0b0b;--ink2:#52514e;--muted:#6f6d67;--line:#e1e0d9;
+--bar:#2a78d6;--good:#0b7a0b;--bad:#b3261e;--chip:#eef3fb}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#1a1a19;--card:#222221;
+--ink:#f0efec;--ink2:#c3c2b7;--muted:#9b9992;--line:#2c2c2a;--bar:#3987e5;--good:#4cc24c;--bad:#ef7f7f;--chip:#262c36}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#1a1a19;--card:#222221;--ink:#f0efec;--ink2:#c3c2b7;--muted:#9b9992;
+--line:#2c2c2a;--bar:#3987e5;--good:#4cc24c;--bad:#ef7f7f;--chip:#262c36}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:880px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:22px;margin:0 0 2px}h2{font-size:16px;margin:28px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:12px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.tile b{display:block;font-size:26px;line-height:1.1}.tile span{color:var(--ink2);font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sym{font-weight:700}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 9px;margin:1px 4px 1px 0;font-size:12px}
+.bar{display:inline-block;height:8px;border-radius:0 4px 4px 0;background:var(--bar);vertical-align:middle;margin-right:8px}
+.up{color:var(--good)}.down{color:var(--bad)}
+.zero{position:relative;width:120px;height:10px}
+.zero i{position:absolute;top:1px;height:8px;border-radius:4px}
+.zero:before{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--line)}
+.news li{margin:2px 0}.news{margin:0;padding-left:18px}
+.empty{color:var(--muted);padding:12px}
+footer{color:var(--muted);font-size:12px;margin-top:32px}
+a{color:var(--bar)}
+</style></head><body><main>
+<h1>Day trader alerts</h1>
+<p class="sub">Tue 2026-10-20 18:06 ET &middot; last 24 hours</p>
+<div class="tiles"><div class="tile"><b>0</b><span>pre-market setups</span></div><div class="tile"><b>0</b><span>opening-range breakouts</span></div><div class="tile"><b>0</b><span>news items</span></div><div class="tile"><b>0</b><span>price alerts</span></div><div class="tile"><b>0</b><span>Congress filings</span></div></div>
+
+<h2>Pre-market setups</h2><div class="card"><p class="empty">No setups today.</p></div>
+<h2>Opening-range breakouts</h2><div class="card"><p class="empty">No breakouts yet.</p></div>
+<h2>News and filings</h2><div class="card"><p class="empty">No new headlines or filings.</p></div>
+<h2>Congress filings</h2><div class="card"><p class="empty">No new filings.</p></div>
+<h2>Price alerts</h2><div class="card"><p class="empty">No price alerts.</p></div>
+<footer>Not financial advice. Free, delayed, unofficial public data; most people who day trade lose money.
+Alerts only: this bot never places an order.</footer>
+</main></body></html>
